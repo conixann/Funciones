@@ -23,3 +23,6 @@
 #la diferencia es que el 2do parametro tiene un valor, no le puedo dar un valor por defecto a el primer parametro, siempre a los ultimos que existan
 
 #el comando enumerate me permite tomar una lista y enumerar las posiciones de forma temporal, entrega una posicion y un valor
+
+#cuando algo no se cumpla termina la funcion con RETURN, siempre una función para validar una cosa distinta
+#el :1.f entregame un float con un decimal

@@ -4,7 +4,7 @@ def validar_nota(nota):
         return True
     return False
 
-def agregar_nota(notas,alumno,nota):
+def agregar_nota(notas:list,alumno:str,nota:float):
     if not validar_nota(nota):
         print("Nota inválida. Debe estar entre 1.0 y 7.0")
         return
@@ -14,10 +14,11 @@ def agregar_nota(notas,alumno,nota):
 def mostrar_promedio(notas):
     if not notas:
         print("Sin notas registradas")
+        return
     total = 0
     for registro in notas:
         total += registro["nota"]
-        return
+        
     promedio= total/len(notas)
     
     print(f"Promedio del curso: {promedio:.1f}")
